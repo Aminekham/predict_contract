@@ -9,3 +9,4 @@ opencv-python-headless
 keras-preprocessing
 scikit-learn==1.2.2
 tf2onnx
+gunicorn
