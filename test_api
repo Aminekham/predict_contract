@@ -1,53 +1,10 @@
 from flask import Flask, request, jsonify, render_template
-import cv2
-import pytesseract
-import joblib
-import os
 
 app = Flask(__name__)
-
-# Load the trained model
-model = joblib.load('contract_classification_model_sgdc.pkl')
-label_encoder = joblib.load('label_encoder_sgdc.pkl')
-
-def image_to_text(image_path):
-    try:
-        img = cv2.imread(image_path)
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        threshold_img = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
-        text = pytesseract.image_to_string(threshold_img)
-        return text
-    except Exception as e:
-        return str(e)
 
 @app.route('/')
 def index():
     return render_template('index.html')
-
-@app.route('/classify_contract', methods=['POST'])
-def classify_contract():
-    try:
-        # Get the uploaded image file
-        image_file = request.files.get('image')
-
-        # Ensure the filename is a string
-        filename = str(image_file.filename)
-
-        # Save the image file to a location
-        image_path = os.path.join("uploads", filename)
-        image_file.save(image_path)
-
-        # Extract text from the image
-        image_text = image_to_text(image_path)
-
-        # Predict the contract class
-        predicted_class_encoded = model.predict([image_text])[0]
-        predicted_class = label_encoder.inverse_transform([predicted_class_encoded])[0]
-
-        return jsonify({'predicted_class': predicted_class, 'image_text': image_text})
-
-    except Exception as e:
-        return jsonify({'error': str(e)})
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
