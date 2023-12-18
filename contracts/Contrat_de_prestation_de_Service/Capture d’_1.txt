@@ -1,0 +1,4 @@
+﻿*Le présent contrat est un contrat de prestation ayant pour objet {15}.
+*En contrepartie de la réalisation des prestations définies, le client versera au prestataire la somme de {16} dt.
+*Ce contrat est passé pour une durée de {17} mois. Il prendra effet le {18} et arrivera à son terme le {19}.
+*Le prestataire s'engage à mener à bien la tâche précisée à l'Article premier, conformément aux règles de l'art et de la meilleure manière.

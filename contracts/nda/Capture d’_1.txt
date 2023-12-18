@@ -1,0 +1,14 @@
+﻿*La Partie qui se voit remettre des Informations Confidentielles s'engage pour une durée de {14} mois à compter de la signature du présent accord à ce que ces Informations Confidentielles :
+a. soient protégées et gardées strictement confidentielles et soient traitées avec le même degré de précaution et de protection qu'elle accorde à ses propres Informations Confidentielles de même importance;
+b. ne soient pas utilisées, totalement ou partiellement, dans un autre objectif que celui défini au préambule ci-dessus ;
+c. ne soient ni communiquées ni susceptibles de l'être, soit directement, soit indirectement à tout tiers ou à toutes personnes autres que celles mentionnées à l'article 5 ci-dessous ;
+d. et ne soient ni copiées, ni reproduites, ni dupliquées totalement ou partiellement lorsque de telles copies, reproductions ou duplications n'ont pas été autorisées par écrit par la Partie de qui elles émanent.
+*La Partie qui reçoit les Informations Confidentielles ne sera soumise à aucune restriction quant à leur utilisation ou transmission, si elle peut apporter la preuve :
+a. qu'elles sont entrées dans le domaine public préalablement à leur transmission ou après celle-ci mais dans ce cas en l'absence de toute faute qui lui soit imputable;
+b. qu'elles sont déjà connues de celle-ci, cette connaissance préalable pouvant être démontrée par l'existence de documents appropriés dans ses dossiers ;
+c. qu'elles ont été reçues d'un tiers de manière licite, sans restriction ni violation du présent accord;
+d. que l'utilisation ou la transmission ont été autorisées par écrit par la Partie dont elles émanent; ou
+e. qu'elles sont le résultat de développements internes entrepris de bonne foi par des membres de son personnel n'ayant pas eu accès à ces Informations Confidentielles.
+*Toutes les Informations Confidentielles et leurs reproductions, transmises par l'une ou l'autre Partie, resteront la propriété de la Partie qui les a divulguées. La transmission entre les Parties d'Informations Confidentielles au titre du présent accord ne peut en aucun cas être interprétée comme conférant à la Partie qui les reçoit une licence d'utilisation ou comme transférant un droit réel quelconque concernant lesdites Informations Confidentielles. En conséquence, tous les droits de propriété intellectuelle éventuellement attachés aux Informations Confidentielles demeurent la propriété exclusive de la Partie les divulguant.
+*A l'arrivée du terme ou lors de la résiliation du présent accord, les Informations Confidentielles seront soit restituées à la Partie dont elles émanent, soit détruites, leur destruction étant alors confirmée par écrit par la partie qui les avait reçues. Ceci sera effectué à l'option de la Partie dont proviennent ces Informations Confidentielles.
+*Le présent accord est soumis à la loi tunisienne, et tout litige ayant trait au présent accord sera de la compétence des tribunaux tunisiens.

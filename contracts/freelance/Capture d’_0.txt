@@ -1,0 +1,5 @@
+﻿*Le freelancer est chargé de la mission de {12} pour son client dénoté ci-dessus.
+*Le freelancer effectuera sa mission de la période du {13} au {14}.
+*Le client paiera la somme de {15} dt au freelancer à titre de rémunération pour ses prestations en freelance, qui est échue, en plein droit au freelancer, dans la date limite du {16}.
+*Le Freelancer s'engage à respecter la confidentialité des informations et des données auxquelles il aura accès dans le cadre de la prestation. Le Client
+conservera la propriété intellectuelle des livrables produits par le Freelancer dans le cadre de la mission.
