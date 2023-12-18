@@ -9,3 +9,4 @@ opencv-python-headless
 keras-preprocessing
 scikit-learn
 tf2onnx
+tensorflow-gpu
