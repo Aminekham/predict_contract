@@ -8,5 +8,4 @@ joblib
 opencv-python-headless
 keras-preprocessing
 scikit-learn
-tensorflow-gpu
 tf2onnx
