@@ -133,7 +133,7 @@ def test_mem(articles):
 
 @app.route('/')
 def index():
-    return render_template('upload_form.html')
+    return render_template('index.html')
 
 @app.route('/predict', methods=['POST'])
 @profile
