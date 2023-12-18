@@ -5,7 +5,6 @@ import joblib
 import cv2
 import pytesseract
 import re
-import psutil
 from keras.models import load_model
 import pandas as pd
 import numpy as np
