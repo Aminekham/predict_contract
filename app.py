@@ -20,7 +20,7 @@ label_encoder = joblib.load('label_encoder_sgdc.pkl')
 
 def image_to_articles(image):
     try:
-        img = cv2.imread(image)
+        img = cv2.imdecode(np.fromstring(image.read(), np.uint8), cv2.IMREAD_COLOR)
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         threshold_img = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
         text = pytesseract.image_to_string(threshold_img)
@@ -126,7 +126,7 @@ def predict():
 
         # Predict the contract type without saving the image
         articles = image_to_articles(image_file)
-        
+        print(articles)
         predicted_class = test_mem(articles)
 
         result_dict = {predicted_class: []}
