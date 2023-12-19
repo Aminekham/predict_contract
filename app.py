@@ -111,11 +111,12 @@ def get_suggestions_for_article(article_text, suggestion_model, suggestion_token
 def test_mem(articles):
     predicted_class = model.predict([articles[1]])[0]
     predicted_class = label_encoder.inverse_transform([predicted_class])[0]
+    print(predicted_class)
     return(predicted_class)
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('./index.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
