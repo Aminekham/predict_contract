@@ -124,15 +124,8 @@ def predict():
         # Get the uploaded text
         image_file = request.files.get('image')
 
-        # Ensure the filename is a string
-        filename = str(image_file.filename)
-
-        # Save the image file to a location
-        image_path = os.path.join("uploads", filename)
-        image_file.save(image_path)
-
-        # Predict the contract type
-        articles = image_to_articles(image_path)
+        # Predict the contract type without saving the image
+        articles = image_to_articles(image_file)
         
         predicted_class = test_mem(articles)
 
