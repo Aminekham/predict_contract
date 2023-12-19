@@ -20,7 +20,8 @@ label_encoder = joblib.load('label_encoder_sgdc.pkl')
 
 def image_to_articles(image):
     try:
-        img = cv2.imdecode(np.fromstring(image.read(), np.uint8), cv2.IMREAD_COLOR)
+        img_array = np.frombuffer(image.read(), dtype=np.uint8)
+        img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         threshold_img = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
         text = pytesseract.image_to_string(threshold_img)
