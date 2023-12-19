@@ -137,6 +137,7 @@ def predict():
         predicted_class = test_mem(articles)
 
         result_dict = {predicted_class: []}
+        return(result_dict)
         print(result_dict)
         # Directory containing suggestion models and tokenizers
         models_dir = 'models_+tokenizer/'
