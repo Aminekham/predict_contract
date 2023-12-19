@@ -127,7 +127,7 @@ def predict():
 
         # Predict the contract type without saving the image
         articles = image_to_articles(image_file)
-        print(articles)
+        return(articles)
         predicted_class = test_mem(articles)
 
         result_dict = {predicted_class: []}
